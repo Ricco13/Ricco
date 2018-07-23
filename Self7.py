@@ -591,7 +591,7 @@ def bot(op):
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        vipro.sendText(op.param1, "Hallo Kak " + "╩╦ " + Name + " ╦╩" + "\nGimana Kabarnya...Udah Gak Baper Kan??\nSini Ikutan Chat Sama Kita(-__-)   ")
+                                        vipro.sendText(op.param1, "Hallo Kak " + "╩╦ " + Name + " ╦╩" + "\nGimana Kabarnya...Udah Gak Pekok Kan??\nSini Ikutan Chat Sama Kita(-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
@@ -869,7 +869,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = vipro.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk Anu",cName + " Ngapain Ngetag? Mau Dicipok?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Japri Aja","Dia Lagi Nanggung", cName + " Ngapain Sih Tag Gue Tru?","Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gue " + cName, "Loe Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, lagi Modol!"]
+                     balas = ["Dont Tag!! Lagi Sibuk Anu",cName + " Ngapain Ngetag? Mau Dicipok?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Japri Aja","Dia Lagi Nanggung", cName + " Ngapain Sih Tag Gue Trus?","Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gue " + cName, "Loe Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, lagi Modol!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
