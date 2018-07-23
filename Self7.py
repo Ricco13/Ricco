@@ -11,7 +11,7 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 vipro = LINETCR.LINE()
-vipro.login(token='')
+vipro.login(token='EvTGoKH3MUGeqyQLhvFa.gIHgalwJsMTFisMR+xM0wG.wIlp2mynTyANF+eEommW7tL5am6DI+CVGEEG5AdKOeM=')
 vipro.loginResult()
 
 print "zz7Bot-Ciee Ciee Login\n\n=====[AWAS JANGAN SONGONG LOE]====="
@@ -2556,9 +2556,8 @@ def bot(op):
                                     try:
                                         vipro.kickoutFromGroup(msg.to,[target])
                                         print (msg.to,[g.mid])
-                                    except Exception as e:
-                                        vipro.sendText(msg.to,str(e))
-			    vipro.inviteIntoGroup(msg.to, targets)
+                                    except:
+					pass
  
 
 	    elif msg.text in ["Bot restart","Reboot"]:
