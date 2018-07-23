@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Vipro_Bot
+#zz7_Bot
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
