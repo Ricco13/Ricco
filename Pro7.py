@@ -363,7 +363,7 @@ wait = {
     "LeaveRoom":True,
     "AutoJoin":False,
     "AutoJoinCancel":True,
-    "memberscancel":10,
+    "memberscancel":3,
     "Members":1,
     "AutoCancel":{},
     "AutoCancelon":False,  
@@ -380,11 +380,11 @@ wait = {
     'kickMention':False,      
     'timeline':True,
     "Timeline":True,
-    "comment1":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",
-    "comment2":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",
-    "comment3":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",
-    "comment4":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",
-    "comment5":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",    
+    "comment1":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",
+    "comment2":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",
+    "comment3":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",
+    "comment4":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",
+    "comment5":"Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)",    
@@ -824,7 +824,7 @@ def bot(op):
 		    G = cl.getGroup(op.param1)
                     if len(G.members) <= wait["memberscancel"]:
                         cl.acceptGroupInvitation(op.param1)
-                        cl.sendText(op.param1,"Maaf " + cl.getContact(op.param2).displayName + "\nMember Kurang Dari 10 Orang\nUntuk Info, Silahkan Chat Owner Kami!")
+                        cl.sendText(op.param1,"Maaf " + cl.getContact(op.param2).displayName + "\nMember Kurang Dari 3 Orang\nUntuk Info, Silahkan Chat Owner Kami!")
                         c = Message(to=op.param1, from_=None, text=None, contentType=13)
                         c.contentMetadata={'mid':vip}
                         cl.sendMessage(c)                        
@@ -1191,7 +1191,7 @@ def bot(op):
           if wait["Sambutan"] == True:
             if op.param2 in admin:
                 return
-            cl.sendText(op.param1,"Good Bye " + cl.getContact(op.param2).displayName +  "\nSee You Next Time . . . (p′︵‵。) 🤗")
+            cl.sendText(op.param1,"Pergi Sono Yang Jauh " + cl.getContact(op.param2).displayName +  "\nMuka Loe Bikin Gue Pengen Muntah(p′︵‵。) 🤗")
             random.choice(KAC).inviteIntoGroup(op.param1,[op.param2])
             print "MEMBER HAS LEFT THE GROUP"
 
@@ -1311,7 +1311,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Tag Mulu Lo Anjirr!","Dia Lagi Off", cName + " Kenapa Tag? Kangen?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Sekali lagi nge tag gw sumpahin jempol loe kutilan!","Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Tag Mulu Lo Anjirr!","Dia Lagi Off", cName + " Kenapa Tag? Kangen?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Gue Lagi Modol!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -2051,7 +2051,7 @@ def bot(op):
                 cctv['sidermem'][msg.to] = ""
                 cctv['cyduk'][msg.to]=True
                 wait["Sider"] = True
-                cl.sendText(msg.to,"Siap On Cek Sider")
+                cl.sendText(msg.to,"Siap Lempar Bata Kalo Ada Yang Ngintip Doang")
                 
             elif "Sider off" in msg.text:
                 if msg.to in cctv['point']:
@@ -2059,7 +2059,7 @@ def bot(op):
                     wait["Sider"] = False
                     cl.sendText(msg.to, "Cek Sider Off")
                 else:
-                    cl.sendText(msg.to, "Heh Belom Di Set")                         
+                    cl.sendText(msg.to, "Set Dulu Boss")                         
 
 
             elif msg.text in ["Status"]:
@@ -2837,7 +2837,7 @@ def bot(op):
 		gid = cl.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			cl.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~gjxvipro")
+			cl.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/ricco1311")
 		    cl.sendText(msg.to,"Success BC BosQ")
 		else:
 		    cl.sendText(msg.to,"Khusus Admin")
@@ -3001,11 +3001,11 @@ def bot(op):
 		    
 
             elif msg.text in ["Absen"]:
-		cl.sendText(msg.to,"Pasukan Absen!!")
-                ki.sendText(msg.to,"Vipro1 Hadiir  \(ˆ▿ˆ)/")
-                kk.sendText(msg.to,"Vipro2 Hadiir  \(ˆ▿ˆ)/")
-                kc.sendText(msg.to,"Vipro3 Hadiir  \(ˆ▿ˆ)/")
-                kr.sendText(msg.to,"Hadiir Semua Ban Jamban  \(ˆ▿ˆ)/")
+		cl.sendText(msg.to,"Pasukan Absen Dong!!")
+                ki.sendText(msg.to,"Hadir Boss  \(ˆ▿ˆ)/")
+                kk.sendText(msg.to,"Ikut Nongol Boss  \(ˆ▿ˆ)/")
+                kc.sendText(msg.to,"Siap Laksanakan Boss  \(ˆ▿ˆ)/")
+                kr.sendText(msg.to,"Hadir Semua Pasuka  \(ˆ▿ˆ)/")
 
 
             elif msg.text.lower() in ["respon"]:
@@ -3147,7 +3147,7 @@ def bot(op):
                     cl.sendText(msg.to,"ヽ( ^ω^)ﾉ└ ❉Unbanned All Success❉ ┐") 
 
             elif msg.text.lower() in ["bot","vipro"]:
-                cl.sendText(msg.to,"Apa Manggil~Manggil Aku!?") 
+                cl.sendText(msg.to,"Apa Manggil~Manggil Gue!?") 
                 cl.sendText(msg.to,"☆Ketik ☞Help☜ Untuk Bantuan☆") 
 
  
@@ -3198,8 +3198,8 @@ def bot(op):
                         gs = ki.getGroup(msg.to)
                         gs = kk.getGroup(msg.to)
                         gs = kc.getGroup(msg.to)
-                        ki.sendText(msg.to,"Sampai jumpaa~")
-                        kc.sendText(msg.to,"Dadaaah~")
+                        ki.sendText(msg.to,"Fuck You All")
+                        kc.sendText(msg.to,"Bye Bye")
                         targets = []
                         for g in gs.members:
                             if _name in g.displayName:
@@ -4053,36 +4053,36 @@ def bot(op):
 
             elif msg.text in ["Spam"]:
               if msg.from_ in admin:
-                cl.sendText(msg.to,"Aku belum mandi")
-                ki.sendText(msg.to,"Tak tun tuang")
-                kk.sendText(msg.to,"Tak tun tuang")
-                kc.sendText(msg.to,"Tapi masih cantik juga")
-                kr.sendText(msg.to,"Tak tun tuang")
-                cl.sendText(msg.to,"Tak tun tuang")
-                ki.sendText(msg.to,"apalagi kalau sudah mandi")
-                kk.sendText(msg.to,"Tak tun tuang")
-                kc.sendText(msg.to,"Pasti cantik sekali")
-                kr.sendText(msg.to,"yiha")
-                cl.sendText(msg.to,"Kalau orang lain melihatku")
-                ki.sendText(msg.to,"Tak tun tuang")
-                kk.sendText(msg.to,"Badak aku taba bana")
-                kc.sendText(msg.to,"Tak tun tuang")
-                kr.sendText(msg.to,"Tak tuntuang")
-                cl.sendText(msg.to,"Tapi kalau langsuang diidu")
-                ki.sendText(msg.to,"Tak tun tuang")
-                kk.sendText(msg.to,"Atagfirullah baunya")
-                kc.sendText(msg.to,"Males lanjutin ah")
-                kr.sendText(msg.to,"Sepi bat")
-                cl.sendText(msg.to,"Iya sepi udah udah")
-                ki.sendText(msg.to,"Gaada yang denger juga kita nyanyi")
-                kk.sendText(msg.to,"Nah")
-                kc.sendText(msg.to,"Mending gua makan dulu")
-                kr.sendText(msg.to,"Siyap")
-                cl.sendText(msg.to,"Okeh")
-                ki.sendText(msg.to,"Katanya owner kita Jomblo ya")
-                kk.sendText(msg.to,"Iya emang")
-                kc.sendText(msg.to,"Denger denger si lagi nyari pacar doi")
-                kr.sendText(msg.to,"Udah ah gosip mulu doain aja biar dapet")
+                cl.sendText(msg.to,"Team Nyanyi Dong Buat Boss Kita")
+                ki.sendText(msg.to,"Lagu Apa Boss??")
+                kk.sendText(msg.to,"Mau Yang Slow Apa Rock??")
+                kc.sendText(msg.to,"Dangdut Mau Gak Boss??")
+                kr.sendText(msg.to,"Kasih Boss Lagu Pop Aja")
+                cl.sendText(msg.to,"Armada Ya Boss")
+                ki.sendText(msg.to,"Ya Udah Pop Aja")
+                kk.sendText(msg.to,"Cocok Tuh Armada")
+                kc.sendText(msg.to,"Hargai Aku")
+                kr.sendText(msg.to,"Ready Team")
+                cl.sendText(msg.to,"Seringkali kau merendahkan ku")
+                ki.sendText(msg.to,"Melihat dengan sebelah matamu")
+                kk.sendText(msg.to,"Aku bukan siapa-siapa")
+                kc.sendText(msg.to,"Selalu saja kau anggap ku lemah")
+                kr.sendText(msg.to,"Merasa hebat dengan yang kau punya")
+                cl.sendText(msg.to,"Kau sombongkan itu semua")
+                ki.sendText(msg.to,"Coba kau lihat dirimu dahulu")
+                kk.sendText(msg.to,"Sebelum kau nilai kurangnya diriku")
+                kc.sendText(msg.to,"Apa salahnya hargai diriku")
+                kr.sendText(msg.to,"Sebelum kau nilai siapa diriku")
+                cl.sendText(msg.to,"Seringkali kau merendahkan ku (kau merendahkan ku)")
+                ki.sendText(msg.to,"Melihat dengan sebelah matamu")
+                kk.sendText(msg.to,"Aku bukan siapa-siapa")
+                kc.sendText(msg.to,"Coba kau lihat dirimu dahulu")
+                kr.sendText(msg.to,"Sebelum kau nilai kurangnya diriku")
+                cl.sendText(msg.to,"Apa salahnya hargai diriku")
+                ki.sendText(msg.to,"Sebelum kau nilai siapa diriku")
+                kk.sendText(msg.to,".....")
+                kc.sendText(msg.to,"Nah,,Si Boss Udah Tidur Tuh")
+                kr.sendText(msg.to,"Balik Yuu Team")
  
             elif "Getvid @" in msg.text:
                 print "[Command]dp executing"
