@@ -12,43 +12,43 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='token')
+cl.login(token='Ev9zlPnmIxfjeUXxnKW7.c3QkYcvlmbtibfbllPtUTW.s9hqEUlPpvtq1T5BDm+8+WUDHsiZ4FxuAd1sd3Q26cI=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='token')
+ki.login(token='Ev9M0JFIech6f96PvZ35.L/0T2wlsjlklKMxZqoBpjq.JaG9lH7F76rL+8XgzRarGgtml7D3kT5HNp5n4NqzTRg=')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='token')
+kk.login(token='Ev7LotKlR4852ANO8DLd.z/87WpbvdOsAOUP+LMoQdq.H0Oc79FgUHEOBfewQ/xP94xxN5eLODHtlNZdTcZDAGA=')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='token')
+kc.login(token='Ev4jTWXWjpDP3bICzFn1.MDYVhzMV4DyUakir+e4l8q.YJ6rF34LHrlFNvQj+owrXpJWUIHCYDy30UEhkbtj2cU=')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='token')
+kr.login(token='EvFlp1UbdmgDXVOsiaa5.jt4jxo0QbZHtv5jsH6bmDq.uBUGcVoFTIbnKr4Cov/8FHrjyl1ERgRCIdolS8wnj6E=')
 kr.loginResult()
 print "Kr-Login Success\n"
 
 vipro = LINETCR.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
 #vipro.login(qr=True)
-vipro.login(token='token')
+vipro.login(token='EvTGoKH3MUGeqyQLhvFa.gIHgalwJsMTFisMR+xM0wG.wIlp2mynTyANF+eEommW7tL5am6DI+CVGEEG5AdKOeM=')
 vipro.loginResult()
 print "Vipro-Login Success\n"
 
 km = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
 #km.login(qr=True)
-km.login(token='token')
+km.login(token='EvqMZSNjFR8T8zGyYVMa.vOdrWyvXy/NrnYPaSyXyEG.78UgeP0pjCWx8yHSN8rBSGBpez6Jen9k5m5Pk9XeYo8=')
 km.loginResult()
 print "Km-Login Success\n\n=====[JANGAN SONGONG PAKE SCRIPT ORANG!!!]====="
 
@@ -184,7 +184,7 @@ groupMessage ="""
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
-vip=""
+vip="u1a284600b5a34a6b5f2129abfd79b45a"
 
 setMessage ="""
 ╔═════════════════════════
@@ -318,9 +318,9 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Fmid = vipro.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"uda936836a9869eb86ec8ab992a4e8979"]
-Creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admin=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u1a284600b5a34a6b5f2129abfd79b45a"]
+Creator=["u1a284600b5a34a6b5f2129abfd79b45a"]
+admin=["u1a284600b5a34a6b5f2129abfd79b45a"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -3214,9 +3214,8 @@ def bot(op):
                                         kicker=random.choice(klist)
                                         kicker.kickoutFromGroup(msg.to,[target])
                                         print (msg.to,[g.mid])
-                                    except Exception as e:
-                                        cl.sendText(msg.to,str(e))
-			    cl.inviteIntoGroup(msg.to, targets)
+                                    except:
+					pass
  
 
 	    elif msg.text in ["Bot restart","Reboot"]:
