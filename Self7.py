@@ -145,7 +145,7 @@ groupMessage ="""
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
-vip=""
+vip="u1a284600b5a34a6b5f2129abfd79b45a"
 
 setMessage ="""
 ╔═════════════════════════
@@ -250,8 +250,8 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-Creator=["midloe"]
-admin=["midloe"]
+Creator=["u1a284600b5a34a6b5f2129abfd79b45a"]
+admin=["u1a284600b5a34a6b5f2129abfd79b45a"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
