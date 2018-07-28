@@ -11,7 +11,7 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 vipro = LINETCR.LINE()
-vipro.login(token='EvTGoKH3MUGeqyQLhvFa.gIHgalwJsMTFisMR+xM0wG.wIlp2mynTyANF+eEommW7tL5am6DI+CVGEEG5AdKOeM=')
+vipro.login(token='Ev3VuzPvB2c7TEIDrXra.gIHgalwJsMTFisMR+xM0wG.RYQcXjh7TSoDX92TQZU7QxE0MqgQzRWeiRrTZkeQdZM=')
 vipro.loginResult()
 
 print "zz7Bot-Ciee Ciee Login\n\n=====[AWAS JANGAN SONGONG LOE]====="
