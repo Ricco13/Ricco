@@ -361,7 +361,7 @@ responsename5 = kr.getProfile().displayName
 
 wait = {
     "LeaveRoom":True,
-    "AutoJoin":False,
+    "AutoJoin":True,
     "AutoJoinCancel":True,
     "memberscancel":3,
     "Members":1,
@@ -395,7 +395,7 @@ wait = {
     "Qron":False,
     "Contact":False,
     "Sambutan":True,
-    "Ghost":True,
+    "Ghost":False,
     "inviteprotect":False,   
     "alwaysRead":False,    
     "Sider":{},
@@ -694,11 +694,11 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        random.choice(KAC).sendText(op.param1, "Haii " + "☞ " + nick[0] + " ☜" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
+                                        random.choice(KAC).sendText(op.param1, "Waduh Ada" + "☞ " + nick[0] + " ☜" + "\nLagi Ngintip\nSini Ikutan Chat Bos Jangan Sider Mulu(-__-)")
                                     else:
-                                        random.choice(KAC).sendText(op.param1, "Haii " + "☞ " + nick[1] + " ☜" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
+                                        random.choice(KAC).sendText(op.param1, "Idiihh" + "☞ " + nick[1] + " ☜" + "\nGimana Kabarnya??\nSini Ikutan Chat Sama Kita(-__-)")
                                 else:
-                                    random.choice(KAC).sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    random.choice(KAC).sendText(op.param1, "Eehh Ada" + "☞ " + Name + " ☜" + "\nNongol\nUdah Mandi Belum???\nCepetan Mandi Pake Rinso Biar Gak Jomblo Terus"")
                         else:
                             pass
                     else:
@@ -1484,7 +1484,7 @@ def bot(op):
                   cl.sendText(msg.to,"The Admin List Is Empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "╔═════════════════════════\n║        ☆☞ ADMIN VIPRO ☜☆\n╠═════════════════════════\n"
+                  mc = "╔═════════════════════════\n║        ☆☞ ADMIN ZZ7 ☜☆\n╠═════════════════════════\n"
                   for mi_d in admin:
                       mc += "╠••> " +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc + "╚═════════════════════════")
@@ -3005,7 +3005,7 @@ def bot(op):
                 ki.sendText(msg.to,"Hadir Boss  \(ˆ▿ˆ)/")
                 kk.sendText(msg.to,"Ikut Nongol Boss  \(ˆ▿ˆ)/")
                 kc.sendText(msg.to,"Siap Laksanakan Boss  \(ˆ▿ˆ)/")
-                kr.sendText(msg.to,"Hadir Semua Pasuka  \(ˆ▿ˆ)/")
+                kr.sendText(msg.to,"Hadir Semua Pasukan  \(ˆ▿ˆ)/")
 
 
             elif msg.text.lower() in ["respon"]:
