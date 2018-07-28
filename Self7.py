@@ -47,7 +47,7 @@ selfMessage ="""
 ╠✪〘Micdel @〙
 ╠✪〘Miclist〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -63,11 +63,11 @@ botMessage ="""
 ╠✪〘Copycontact〙
 ╠✪〘Mybackup〙
 ╠✪〘Mybio (Text)〙
-╠✪〘Myname (Text)〙
+╠✪〘Myname:〙
 ╠✪〘@bye〙
 ╠✪〘Bot on/off〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -106,7 +106,7 @@ mediaMessage ="""
 ╠✪〘Id@th Text (Translate ID Ke TH〙
 ╠✪〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -141,7 +141,7 @@ groupMessage ="""
 ╠✪〘Getgroup image〙
 ╠✪〘Urlgroup Image〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -160,7 +160,7 @@ setMessage ="""
 ╠✪〘Sticker on〙
 ╠✪〘Simisimi on/off〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -179,7 +179,7 @@ creatorMessage ="""
 ╠✪〘Bot restart〙
 ╠✪〘Turn off〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -220,7 +220,7 @@ adminMessage ="""
 ╠✪〘Respon3 on/off〙
 ╠✪〘Responkick on/off〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -282,7 +282,7 @@ helpMessage ="""
 ╠✪〘Status〙
 ╠✪〘Team〙
 ╠═════════════════════════
-║     👽 By : zz7ComBat 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════
 """
@@ -871,7 +871,7 @@ def bot(op):
             vipro.sendMessage(d)                  
             print "MEMBER HAS LEFT THE GROUP"
             
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             
             if msg.from_ in mimic["target"] and mimic["status"] == True and mimic["target"][msg.from_] == True:
@@ -3063,14 +3063,13 @@ def bot(op):
                         vipro.updateProfile(profile)
                         vipro.sendText(msg.to,"Done")
 
-            elif "Myname " in msg.text:
-		if msg.from_ in Creator:
-                    string = msg.text.replace("Myname ","")
-                    if len(string.decode('utf-8')) <= 5000:
-                        profile = vipro.getProfile()
-                        profile.displayName = string
-                        vipro.updateProfile(profile)
-                        vipro.sendText(msg.to,"Done")
+            elif "Myname: " in msg.text:
+                string = msg.text.replace("Myname: ","")
+                if len(string.decode('utf-8')) <= 10000000000:
+                    profile = cl.getProfile()
+                    profile.displayName = string
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"Changed " + string + "")
 
 
 
@@ -3082,6 +3081,10 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}
                 vipro.sendMessage(msg)
+				
+            elif msg.text in ["Myname:"]:
+                    h = cl.getContact(mid)
+                    cl.sendText(msg.to,"===[DisplayName]===\n" + h.displayName)
 				
 	    elif msg.text in ["Kibaran","My zz7Combat Team"]:
                    msg.contentType = 13
@@ -3100,6 +3103,7 @@ def bot(op):
                    fams13 = "uebb63a9d4f5b00064dde1b388adb4cf1"
                    fams14 = "uff0da18a1c365ac365d729fbc8e34a45"
 		   fams15 = "uaeb6354399e465e3f137565c729d5d67"
+		   fams16 = "u96282e96a8aefaee1198324ea2849800"
                    msg.contentMetadata = {'mid': vip}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams1}
@@ -3132,8 +3136,10 @@ def bot(op):
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams15}
                    random.choice(KAC).sendMessage(msg)
+	           msg.contentMetadata = {'mid': fams16}
+                   random.choice(KAC).sendMessage(msg)
 		   random.choice(KAC).sendText(msg.to,"👽♅LOE SONGONG BERARTI LOE SIAP ANCUR♅👽SALAM JARI TENGAH BUAT PECUNDANG♅👽")
-
+		   
             elif "apakah " in msg.text:
                 apk = msg.text.replace("apakah ","")
                 rnd = ["Ya","Tidak","Bisa Jadi","Mungkin"]
