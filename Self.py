@@ -3104,6 +3104,9 @@ def bot(op):
                    fams14 = "uff0da18a1c365ac365d729fbc8e34a45"
 		   fams15 = "uaeb6354399e465e3f137565c729d5d67"
 		   fams16 = "u96282e96a8aefaee1198324ea2849800"
+		   fams17 = "uee2449fa7e053c90bc67a9e88b28ec52"
+		   fams18 = "u4f019ba193aaebfb24485610afe5b6c1"
+		   fams19 = "u66fe535ab68b4aa1429bc0171963b7d0"
                    msg.contentMetadata = {'mid': vip}
                    random.choice(KAC).sendMessage(msg)
                    msg.contentMetadata = {'mid': fams1}
@@ -3137,6 +3140,12 @@ def bot(op):
                    msg.contentMetadata = {'mid': fams15}
                    random.choice(KAC).sendMessage(msg)
 	           msg.contentMetadata = {'mid': fams16}
+                   random.choice(KAC).sendMessage(msg)
+	           msg.contentMetadata = {'mid': fams17}
+                   random.choice(KAC).sendMessage(msg)
+		   msg.contentMetadata = {'mid': fams18}
+                   random.choice(KAC).sendMessage(msg)
+	           msg.contentMetadata = {'mid': fams19}
                    random.choice(KAC).sendMessage(msg)
 		   random.choice(KAC).sendText(msg.to,"👽♅LOE SONGONG BERARTI LOE SIAP ANCUR♅👽SALAM JARI TENGAH BUAT PECUNDANG♅👽")
 		   
