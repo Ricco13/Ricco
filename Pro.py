@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-#Vipro_Bot
+#zz7_Bot
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import zz7
+from zz7.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 from threading import Thread
@@ -10,43 +10,43 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-cl = LINETCR.LINE()
+cl = zz7.LINE()
 #cl.login(qr=True)
 cl.login(token='Ev9zlPnmIxfjeUXxnKW7.c3QkYcvlmbtibfbllPtUTW.s9hqEUlPpvtq1T5BDm+8+WUDHsiZ4FxuAd1sd3Q26cI=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
-ki = LINETCR.LINE()
+ki = zz7.LINE()
 #ki.login(qr=True)
 ki.login(token='Ev4jTWXWjpDP3bICzFn1.MDYVhzMV4DyUakir+e4l8q.YJ6rF34LHrlFNvQj+owrXpJWUIHCYDy30UEhkbtj2cU=')
 ki.loginResult()
 print "Ki-Login Success\n"
 
-kk = LINETCR.LINE()
+kk = zz7.LINE()
 #kk.login(qr=True)
 kk.login(token='Ev7LotKlR4852ANO8DLd.z/87WpbvdOsAOUP+LMoQdq.H0Oc79FgUHEOBfewQ/xP94xxN5eLODHtlNZdTcZDAGA=')
 kk.loginResult()
 print "Kk-Login Success\n"
 
-kc = LINETCR.LINE()
+kc = zz7.LINE()
 #kc.login(qr=True)
 kc.login(token='EvFlp1UbdmgDXVOsiaa5.jt4jxo0QbZHtv5jsH6bmDq.uBUGcVoFTIbnKr4Cov/8FHrjyl1ERgRCIdolS8wnj6E=')
 kc.loginResult()
 print "Kc-Login Success\n"
 
-kr = LINETCR.LINE()
+kr = zz7.LINE()
 #kr.login(qr=True)
 kr.login(token='Ev9M0JFIech6f96PvZ35.L/0T2wlsjlklKMxZqoBpjq.JaG9lH7F76rL+8XgzRarGgtml7D3kT5HNp5n4NqzTRg=')
 kr.loginResult()
 print "Kr-Login Success\n"
 
-vipro = LINETCR.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
+vipro = zz7.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
 #vipro.login(qr=True)
 vipro.login(token='Ev3VuzPvB2c7TEIDrXra.gIHgalwJsMTFisMR+xM0wG.RYQcXjh7TSoDX92TQZU7QxE0MqgQzRWeiRrTZkeQdZM=')
 vipro.loginResult()
 print "Vipro-Login Success\n"
 
-km = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
+km = zz7.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
 #km.login(qr=True)
 km.login(token='EvqMZSNjFR8T8zGyYVMa.vOdrWyvXy/NrnYPaSyXyEG.78UgeP0pjCWx8yHSN8rBSGBpez6Jen9k5m5Pk9XeYo8=')
 km.loginResult()
