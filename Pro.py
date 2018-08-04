@@ -57,256 +57,256 @@ sys.setdefaultencoding('utf-8')
 
 
 selfMessage ="""
-╔═════════════════════════
-║   ۩۞۩ S E L F ۩۞۩
-╠═════════════════════════
-╠➩〘Hi〙
-╠➩〘Me〙
-╠➩〘Mymid〙
-╠➩〘Mid @〙
-╠➩〘SearchID: (ID LINE)〙
-╠➩〘Checkdate (DD/MM/YY)〙
-╠➩〘Kalender〙
-╠➩〘Steal contact〙
-╠➩〘Pp @〙
-╠➩〘Cover @〙
-╠➩〘Auto like〙
-╠➩〘Scbc Text〙
-╠➩〘Cbc Text〙
-╠➩〘Gbc Text〙
-╠➩〘Bio @〙
-╠➩〘Info @〙
-╠➩〘Name @〙
-╠➩〘Profile @〙
-╠➩〘Contact @〙
-╠➩〘Getvid @〙
-╠➩〘Friendlist〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_S E L F 🐝🕵 
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Hi〙
+╠╰👽╮〘Me〙
+╠╰👽╮〘Mymid〙
+╠╰👽╮〘Mid @〙
+╠╰👽╮〘SearchID (ID LINE)〙
+╠╰👽╮〘Checkdate (DD/MM/YY)〙
+╠╰👽╮〘Kalender〙
+╠╰👽╮〘Steal contact〙
+╠╰👽╮〘Pp @〙
+╠╰👽╮〘Cover @〙
+╠╰👽╮〘Auto like〙
+╠╰👽╮〘Scbc Text〙
+╠╰👽╮〘Cbc Text〙
+╠╰👽╮〘Gbc Text〙
+╠╰👽╮〘Bio @〙
+╠╰👽╮〘Info @〙
+╠╰👽╮〘Name @〙
+╠╰👽╮〘Profile @〙
+╠╰👽╮〘Contact @〙
+╠╰👽╮〘Getvid @〙
+╠╰👽╮〘Friendlist〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 botMessage ="""
-╔═════════════════════════
-║   ۩۞۩ B O T ۩۞۩
-╠═════════════════════════
-╠➩〘Absen〙
-╠➩〘Respon〙
-╠➩〘Runtime〙
-╠➩〘copy @〙
-╠➩〘Vipro1 copy @〙
-╠➩〘Vipro2 copy @〙
-╠➩〘Vipro3 copy @〙
-╠➩〘Vipro4 copy @〙
-╠➩〘Backup all〙
-╠➩〘bio Text〙
-╠➩〘@bye (Usir Bot Utama)〙
-╠➩〘Bye bot (Usir Semua Bot)〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_B O T 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Absen〙
+╠╰👽╮〘Respon〙
+╠╰👽╮〘Runtime〙
+╠╰👽╮〘copy @〙
+╠╰👽╮〘Vipro1 copy @〙
+╠╰👽╮〘Vipro2 copy @〙
+╠╰👽╮〘Vipro3 copy @〙
+╠╰👽╮〘Vipro4 copy @〙
+╠╰👽╮〘Backup all〙
+╠╰👽╮〘bio Text〙
+╠╰👽╮〘@bye (Usir Bot Utama)〙
+╠╰👽╮〘Bye bot (Usir Semua Bot)〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 mediaMessage ="""
-╔═════════════════════════
-║   ۩۞۩ M E D I A ۩۞۩
-╠═════════════════════════
-╠➩〘Gift〙
-╠➩〘Giftbycontact〙
-╠➩〘Gif gore〙
-╠➩〘Google (Text)〙
-╠➩〘Playstore NamaApp〙
-╠➩〘Fancytext Text〙
-╠➩〘Musik Judul-Penyanyi〙
-╠➩〘Lirik Judul-Penyanyi〙
-╠➩〘Musrik Judul-Penyanyi〙
-╠➩〘Ig UrsnameInstagram〙
-╠➩〘Checkig UrsnameInstagram〙
-╠➩〘Apakah Text (Kerang Ajaib)〙
-╠➩〘Kapan Text (Kerang Ajaib)〙
-╠➩〘Hari Text (Kerang Ajaib)〙
-╠➩〘Berapa Text (Kerang Ajaib)〙
-╠➩〘Berapakah Text〙
-╠➩〘Youtube Judul Video〙
-╠➩〘Youtubevideo Judul Video〙
-╠➩〘Youtubesearch Judul Video〙
-╠➩〘Image NamaGambar〙
-╠➩〘Say Text〙
-╠➩〘Say-en Text〙
-╠➩〘Say-jp Text〙
-╠➩〘Tr-id Text (Translate En Ke ID〙
-╠➩〘Tr-en Text (Translate ID Ke En〙
-╠➩〘Tr-th Text (Translate ID Ke Th〙
-╠➩〘Id@en Text (Translate ID Ke En〙
-╠➩〘Id@th Text (Translate ID Ke TH〙
-╠➩〘En@id Text (Translate En Ke ID〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_M E D I A 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Gift〙
+╠╰👽╮〘Giftbycontact〙
+╠╰👽╮〘Gif gore〙
+╠╰👽╮〘Google (Text)〙
+╠╰👽╮〘Playstore NamaApp〙
+╠╰👽╮〘Fancytext Text〙
+╠╰👽╮〘Musik Judul-Penyanyi〙
+╠╰👽╮〘Lirik Judul-Penyanyi〙
+╠╰👽╮〘Musrik Judul-Penyanyi〙
+╠╰👽╮〘Ig UrsnameInstagram〙
+╠╰👽╮〘Checkig UrsnameInstagram〙
+╠╰👽╮〘Apakah Text (Kerang Ajaib)〙
+╠╰👽╮〘Kapan Text (Kerang Ajaib)〙
+╠╰👽╮〘Hari Text (Kerang Ajaib)〙
+╠╰👽╮〘Berapa Text (Kerang Ajaib)〙
+╠╰👽╮〘Berapakah Text〙
+╠╰👽╮〘Youtube Judul Video〙
+╠╰👽╮〘Youtubevideo Judul Video〙
+╠╰👽╮〘Youtubesearch Judul Video〙
+╠╰👽╮〘Image NamaGambar〙
+╠╰👽╮〘Say Text〙
+╠╰👽╮〘Say-en Text〙
+╠╰👽╮〘Say-jp Text〙
+╠╰👽╮〘Tr-id Text (Translate En Ke ID〙
+╠╰👽╮〘Tr-en Text (Translate ID Ke En〙
+╠╰👽╮〘Tr-th Text (Translate ID Ke Th〙
+╠╰👽╮〘Id@en Text (Translate ID Ke En〙
+╠╰👽╮〘Id@th Text (Translate ID Ke TH〙
+╠╰👽╮〘En@id Text (Translate En Ke ID〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 groupMessage ="""
-╔═════════════════════════
-║   ۩۞۩ G R O U P ۩۞۩
-╠═════════════════════════
-╠➩〘Welcome〙
-╠➩〘Say:welcome〙
-╠➩〘Invite creator〙
-╠➩〘Setview/Cctv〙
-╠➩〘Viewseen/Ciduk〙
-╠➩〘Gn: (NamaGroup)〙
-╠➩〘Tag all〙
-╠➩〘Sepi〙
-╠➩〘lurk on/off〙
-╠➩〘lurkers〙
-╠➩〘Recover〙
-╠➩〘Cancel〙
-╠➩〘Cancelall〙
-╠➩〘Gcreator〙
-╠➩〘Ginfo〙
-╠➩〘Gurl〙
-╠➩〘List group〙
-╠➩〘Pict group: (NamaGroup)〙
-╠➩〘Spam: (Text)〙
-╠➩〘Spam〙
-╠➩〘Add all〙
-╠➩〘Kick: (Mid)〙
-╠➩〘Invite: (Mid)〙
-╠➩〘Invite〙
-╠➩〘Memlist〙
-╠➩〘Getgroup image〙
-╠➩〘Urlgroup Image〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_G R O U P 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Welcome〙
+╠╰👽╮〘Say:welcome〙
+╠╰👽╮〘Invite creator〙
+╠╰👽╮〘Setview/Cctv〙
+╠╰👽╮〘Viewseen/Ciduk〙
+╠╰👽╮〘Gn: (NamaGroup)〙
+╠╰👽╮〘Tag all〙
+╠╰👽╮〘Sepi〙
+╠╰👽╮〘lurk on/off〙
+╠╰👽╮〘lurkers〙
+╠╰👽╮〘Recover〙
+╠╰👽╮〘Cancel〙
+╠╰👽╮〘Cancelall〙
+╠╰👽╮〘Gcreator〙
+╠╰👽╮〘Ginfo〙
+╠╰👽╮〘Gurl〙
+╠╰👽╮〘List group〙
+╠╰👽╮〘Pict group: (NamaGroup)〙
+╠╰👽╮〘Spam: (Text)〙
+╠╰👽╮〘Spam〙
+╠╰👽╮〘Add all〙
+╠╰👽╮〘Kick: (Mid)〙
+╠╰👽╮〘Invite: (Mid)〙
+╠╰👽╮〘Invite〙
+╠╰👽╮〘Memlist〙
+╠╰👽╮〘Getgroup image〙
+╠╰👽╮〘Urlgroup Image〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 vip="u1a284600b5a34a6b5f2129abfd79b45a"
 
 setMessage ="""
-╔═════════════════════════
-║   ۩۞۩ S E T ۩۞۩
-╠═════════════════════════
-╠➩〘Notif on/off〙
-╠➩〘Url on/off〙
-╠➩〘Alwaysread on/off〙
-╠➩〘Sider on/off〙
-╠➩〘Contact on/off〙
-╠➩〘Simisimi on/off〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_S E T 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Notif on/off〙
+╠╰👽╮〘Url on/off〙
+╠╰👽╮〘Alwaysread on/off〙
+╠╰👽╮〘Sider on/off〙
+╠╰👽╮〘Contact on/off〙
+╠╰👽╮〘Simisimi on/off〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 creatorMessage ="""
-╔═════════════════════════
-║   ۩۞۩ C R E A T O R ۩۞۩
-╠═════════════════════════
-╠➩〘Admin add @〙
-╠➩〘Admin remove @〙
-╠➩〘/vipro〙
-╠➩〘/vipro1〙
-╠➩〘/vipro2〙
-╠➩〘/vipro3〙
-╠➩〘/vipro4〙
-╠➩〘Crash〙
-╠➩〘Kickall〙
-╠➩〘Bc: (Text)〙
-╠➩〘Nk: @〙
-╠➩〘Ulti @〙
-╠➩〘Join group: (NamaGroup〙
-╠➩〘Leave group: (NamaGroup〙
-╠➩〘Leave all group〙
-╠➩〘Bot restart〙
-╠➩〘Turn off〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_C R E A T O R 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Admin add @〙
+╠╰👽╮〘Admin remove @〙
+╠╰👽╮〘/vipro〙
+╠╰👽╮〘/vipro1〙
+╠╰👽╮〘/vipro2〙
+╠╰👽╮〘/vipro3〙
+╠╰👽╮〘/vipro4〙
+╠╰👽╮〘Crash〙
+╠╰👽╮〘Kickall〙
+╠╰👽╮〘Bc: (Text)〙
+╠╰👽╮〘Nk: @〙
+╠╰👽╮〘Ulti @〙
+╠╰👽╮〘Join group: (NamaGroup〙
+╠╰👽╮〘Leave group: (NamaGroup〙
+╠╰👽╮〘Leave all group〙
+╠╰👽╮〘Bot restart〙
+╠╰👽╮〘Turn off〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 adminMessage ="""
-╔═════════════════════════
-║   ۩۞۩ A D M I N ۩۞۩
-╠═════════════════════════
-╠➩〘Admin list〙
-╠➩〘Ban〙
-╠➩〘Unban〙
-╠➩〘Ban @〙
-╠➩〘Unban @〙
-╠➩〘Ban list〙
-╠➩〘Clear ban〙
-╠➩〘Kill〙
-╠➩〘Kick @〙
-╠➩〘Set member: (Jumlah)〙
-╠➩〘Ban group: (NamaGroup〙
-╠➩〘Del ban: (NamaGroup〙
-╠➩〘List ban〙
-╠➩〘Kill ban〙
-╠➩〘Glist〙
-╠➩〘Glistmid〙
-╠➩〘Details group: (Gid)〙
-╠➩〘Cancel invite: (Gid)〙
-╠➩〘Invitemeto: (Gid)〙
-╠➩〘Kapten acc invite〙
-╠➩〘Vipro1 acc invite〙
-╠➩〘Vipro2 acc invite〙
-╠➩〘Vipro3 acc invite〙
-╠➩〘Vipro4 acc invite〙
-╠➩〘Removechat〙
-╠➩〘Join on/off〙
-╠➩〘Joincancel on/off〙
-╠➩〘Respon on/off〙
-╠➩〘Responkick on/off〙
-╠➩〘Leave on/off〙
-╠➩〘All join / (Vipro1/2/3/4 Join)〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_A D M I N 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Admin list〙
+╠╰👽╮〘Ban〙
+╠╰👽╮〘Unban〙
+╠╰👽╮〘Ban @〙
+╠╰👽╮〘Unban @〙
+╠╰👽╮〘Ban list〙
+╠╰👽╮〘Clear ban〙
+╠╰👽╮〘Kill〙
+╠╰👽╮〘Kick @〙
+╠╰👽╮〘Set member: (Jumlah)〙
+╠╰👽╮〘Ban group: (NamaGroup〙
+╠╰👽╮〘Del ban: (NamaGroup〙
+╠╰👽╮〘List ban〙
+╠╰👽╮〘Kill ban〙
+╠╰👽╮〘Glist〙
+╠╰👽╮〘Glistmid〙
+╠╰👽╮〘Details group: (Gid)〙
+╠╰👽╮〘Cancel invite: (Gid)〙
+╠╰👽╮〘Invitemeto: (Gid)〙
+╠╰👽╮〘Kapten acc invite〙
+╠╰👽╮〘Vipro1 acc invite〙
+╠╰👽╮〘Vipro2 acc invite〙
+╠╰👽╮〘Vipro3 acc invite〙
+╠╰👽╮〘Vipro4 acc invite〙
+╠╰👽╮〘Removechat〙
+╠╰👽╮〘Join on/off〙
+╠╰👽╮〘Joincancel on/off〙
+╠╰👽╮〘Respon on/off〙
+╠╰👽╮〘Responkick on/off〙
+╠╰👽╮〘Leave on/off〙
+╠╰👽╮〘All join / (Vipro1/2/3/4 Join)〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 helpMessage ="""
-╔═════════════════════════
-║   ۩۞۩ H E L P ۩۞۩
-╠═════════════════════════
-╠➩〘Help protect〙
-╠➩〘Help self〙
-╠➩〘Help bot〙
-╠➩〘Help group〙
-╠➩〘Help set〙
-╠➩〘Help media〙
-╠➩〘Help admin〙
-╠➩〘Help creator〙
-╠➩〘Owner〙
-╠➩〘Admin〙
-╠➩〘Speed〙
-╠➩〘Speed test〙
-╠➩〘Status〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_H E L P 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Help protect〙
+╠╰👽╮〘Help self〙
+╠╰👽╮〘Help bot〙
+╠╰👽╮〘Help group〙
+╠╰👽╮〘Help set〙
+╠╰👽╮〘Help media〙
+╠╰👽╮〘Help admin〙
+╠╰👽╮〘Help creator〙
+╠╰👽╮〘Owner〙
+╠╰👽╮〘Admin〙
+╠╰👽╮〘Speed〙
+╠╰👽╮〘Speed test〙
+╠╰👽╮〘Status〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 protectMessage ="""
-╔═════════════════════════
-║   ۩۞۩ P R O T E C T ۩۞۩
-╠═════════════════════════
-╠➩〘Allprotect on/off〙
-╠➩〘Autocancel on/off〙
-╠➩〘Qr on/off〙
-╠➩〘Autokick on/off〙
-╠➩〘Ghost on/off〙
-╠➩〘Invitepro on/off〙
-╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
-║  👽line.me/ti/p/ricco1311👽
-╚═════════════════════════
+╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║   🕵🐝 zz7Bot_P R O T E C T 🐝🕵
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+╠╰👽╮〘Allprotect on/off〙
+╠╰👽╮〘Autocancel on/off〙
+╠╰👽╮〘Qr on/off〙
+╠╰👽╮〘Autokick on/off〙
+╠╰👽╮〘Ghost on/off〙
+╠╰👽╮〘Invitepro on/off〙
+╠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+║        🐝By : ZeroZeveN🐝
+║  🐝line.me/ti/p/ricco1311🐝
+╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 """
 
 
@@ -3001,11 +3001,11 @@ def bot(op):
 		    
 
             elif msg.text in ["Absen"]:
-		cl.sendText(msg.to,"Pasukan Absen!!")
-                ki.sendText(msg.to,"Vipro1 Hadiir  \(ˆ▿ˆ)/")
-                kk.sendText(msg.to,"Vipro2 Hadiir  \(ˆ▿ˆ)/")
-                kc.sendText(msg.to,"Vipro3 Hadiir  \(ˆ▿ˆ)/")
-                kr.sendText(msg.to,"Hadiir Semua Ban Jamban  \(ˆ▿ˆ)/")
+		cl.sendText(msg.to,"👽 Combat Pro Absen 👽")
+                ki.sendText(msg.to,"👽Combat One Hadir👽")
+                kk.sendText(msg.to,"👽Combat Two Hadir👽")
+                kc.sendText(msg.to,"👽Combat Three Hadir👽")
+                kr.sendText(msg.to,"👽Hadir Semua Team Combat👽")
 
 
             elif msg.text.lower() in ["respon"]:
