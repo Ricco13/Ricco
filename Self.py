@@ -2635,7 +2635,7 @@ def bot(op):
                         print "Kick all member"
                         _name = msg.text.replace("Kickall","")
                         gs = vipro.getGroup(msg.to)
-                        vipro.sendText(msg.to,"Dadaaah~")
+                        vipro.sendText(msg.to,"See You Next Time...Croott")
                         targets = []
                         for g in gs.members:
                             if _name in g.displayName:
